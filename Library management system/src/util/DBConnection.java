@@ -8,7 +8,7 @@ public class DBConnection {
             return DriverManager.getConnection(
                 "jdbc:mysql://localhost:3306/library_db",
                 "root",
-                "1234"
+                "YOUR_Password"
             );
         } catch (Exception e) {
             System.out.println(e);
