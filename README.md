@@ -1,5 +1,6 @@
 # Library Management System
 
+
 ## 📌 Project Description
 A Java-based Library Management System developed using Swing and JDBC. It helps manage books, customers, staff, issue/return operations, and feedback system.
 
@@ -33,6 +34,12 @@ A Java-based Library Management System developed using Swing and JDBC. It helps 
 ---
 
 ## ▶️ How to Run
+
+## 🗄️ Database Setup
+1. Open MySQL
+2. Run `database_setup.sql`
+3. Update username/password in DBConnection.java
+
 1. Clone the repository
 2. Open in IntelliJ IDEA
 3. Configure database (if applicable)
